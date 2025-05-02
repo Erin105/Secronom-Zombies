@@ -1,12 +1,5 @@
-Attempting to update to current Experimental.
-Now loads without errors for build 2025-04-27-1433
-
-No Idea if things work properly.
-
-Didn't see nemesis688's fork until almost done, oh well.
-
 # Secronom-Zombies
-**Axema's GREAT and LEGENDARY mod!
+**Axema's GREAT and LEGENDARY mod!My personally maintained and forked version**
 
 ### How to install the mod:
 1. Extract **Secronom-Zombies-master**.
@@ -20,3 +13,9 @@ Didn't see nemesis688's fork until almost done, oh well.
 4. Done.
 
 ###### Do this everytime you update. It is done to avoid errors.
+
+### Discord Links
+Discord servers the maintainer/author of this mod actively participates.
+
+#### CDDA Modding Community
+* https://discord.gg/PuMsXMPwaU
