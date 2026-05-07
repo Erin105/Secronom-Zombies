@@ -501,7 +501,8 @@
     "extend": {
       "special_attacks": [
         {
-          "type": "spell",
+          "id": "infect_secro_sflesh_centipede_mom",
+		  "type": "spell",
           "spell_data": { "id": "secro_flesh_infect_target" },
           "cooldown": 30,
 		  "condition": { "math": [ "u_val('hp') / 2", ">=", "n_val('hp')" ] },
@@ -992,7 +993,8 @@
     "extend": {
       "special_attacks": [
         {
-          "type": "spell",
+          "id": "infect_secro_spider_cellar_mega",
+		  "type": "spell",
           "spell_data": { "id": "secro_flesh_infect_target" },
           "cooldown": 30,
 		  "condition": { "math": [ "u_val('hp') / 2", ">=", "n_val('hp')" ] },

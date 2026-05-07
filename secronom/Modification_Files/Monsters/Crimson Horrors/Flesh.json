@@ -53,6 +53,7 @@
     "extend": {
       "special_attacks": [
 	  {
+		"id": "monspell_secro_sflesh_flesh_initial_spell",
         "type": "spell",
         "spell_data": { "id": "mon_sflesh_flesh_convert_terrain" },
         "cooldown": 1,

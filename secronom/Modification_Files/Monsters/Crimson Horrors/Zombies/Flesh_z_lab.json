@@ -54,7 +54,8 @@
     "extend": {
       "special_attacks": [
         {
-          "type": "spell",
+          "id": "infect_secro_zombie_phase_skulker",
+		  "type": "spell",
           "spell_data": { "id": "secro_flesh_infect_target" },
           "cooldown": 30,
 		  "condition": { "math": [ "u_val('hp') / 2", ">=", "n_val('hp')" ] },
@@ -76,7 +77,8 @@
     "extend": {
       "special_attacks": [
         {
-          "type": "spell",
+          "id": "infect_secro_zombie_phase_shrike",
+		  "type": "spell",
           "spell_data": { "id": "secro_flesh_infect_target" },
           "cooldown": 30,
 		  "condition": { "math": [ "u_val('hp') / 2", ">=", "n_val('hp')" ] },
