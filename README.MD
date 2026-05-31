@@ -1,9 +1,3 @@
-Currently playing on build 2025-05-27-0430.
-
-Branch loads without errors for build 2025-04-27-1433
-
-Been playing for a bit, encountered several Secronom locations and things seem to work mostly as intended.
-
 # Secronom-Zombies
 **Axema's GREAT and LEGENDARY mod!
 

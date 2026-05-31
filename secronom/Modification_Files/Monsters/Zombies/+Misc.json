@@ -226,6 +226,7 @@
     "special_attacks": [
       {
         "type": "spell",
+		"cooldown": 0,
         "spell_data": { "id": "mon_zombie_fake_ichorus_poly" },
         "condition": { "math": [ "u_hp('ALL')", "<=", "50" ] },
         "allow_no_target": true,
@@ -289,6 +290,7 @@
     "special_attacks": [
       {
         "type": "spell",
+		"cooldown": 0,
         "spell_data": { "id": "mon_zombie_fake_psyrus_poly" },
         "condition": { "math": [ "u_hp('ALL')", "<=", "50" ] },
         "allow_no_target": true,
