@@ -832,7 +832,7 @@
     "condition": { "not": { "u_has_effect": "eff_fleshling_splitcheck" } },
     "effect": [
       {
-        "u_spawn_monster": "mon_sflesh_fleshling_tiny",
+        "npc_spawn_monster": "mon_sflesh_fleshling_tiny",
         "real_count": 2,
         "min_radius": 1,
         "max_radius": 1,
@@ -846,7 +846,7 @@
     "condition": { "not": { "u_has_effect": "eff_fleshling_splitcheck" } },
     "effect": [
       {
-        "u_spawn_monster": "mon_sflesh_fleshling_smol",
+        "npc_spawn_monster": "mon_sflesh_fleshling_smol",
         "real_count": 2,
         "min_radius": 1,
         "max_radius": 1,
@@ -860,7 +860,7 @@
     "condition": { "not": { "u_has_effect": "eff_fleshling_splitcheck" } },
     "effect": [
       {
-        "u_spawn_monster": "mon_sflesh_fleshling_med",
+        "npc_spawn_monster": "mon_sflesh_fleshling_med",
         "real_count": 2,
         "min_radius": 1,
         "max_radius": 1,
