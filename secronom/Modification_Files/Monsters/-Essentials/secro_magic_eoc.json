@@ -796,7 +796,7 @@
     "id": "eoc_secro_mon_sflesh_fleshling_huge_spawn",
     "effect": [
       {
-        "u_spawn_monster": "GROUP_FLESHLING_CHILDREN",
+        "npc_spawn_monster": "GROUP_FLESHLING_CHILDREN",
         "group": true,
         "real_count": 1,
         "min_radius": 1,
@@ -829,9 +829,9 @@
   {
     "type": "effect_on_condition",
     "id": "eoc_secro_mon_sflesh_fleshling_smol_split",
-    "condition": { "not": { "u_has_effect": "eff_fleshling_splitcheck" } },
+    "condition": { "not": { "npc_has_effect": "eff_fleshling_splitcheck" } },
     "effect": [
-      {
+	  {
         "npc_spawn_monster": "mon_sflesh_fleshling_tiny",
         "real_count": 2,
         "min_radius": 1,
@@ -843,9 +843,9 @@
   {
     "type": "effect_on_condition",
     "id": "eoc_secro_mon_sflesh_fleshling_med_split",
-    "condition": { "not": { "u_has_effect": "eff_fleshling_splitcheck" } },
+    "condition": { "not": { "npc_has_effect": "eff_fleshling_splitcheck" } },
     "effect": [
-      {
+	  {
         "npc_spawn_monster": "mon_sflesh_fleshling_smol",
         "real_count": 2,
         "min_radius": 1,
@@ -857,9 +857,9 @@
   {
     "type": "effect_on_condition",
     "id": "eoc_secro_mon_sflesh_fleshling_big_split",
-    "condition": { "not": { "u_has_effect": "eff_fleshling_splitcheck" } },
+    "condition": { "not": { "npc_has_effect": "eff_fleshling_splitcheck" } },
     "effect": [
-      {
+	  {
         "npc_spawn_monster": "mon_sflesh_fleshling_med",
         "real_count": 2,
         "min_radius": 1,
