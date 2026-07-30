@@ -182,7 +182,7 @@
         "spell_data": { "id": "mon_sflesh_fleshling_ex_initial" },
         "cooldown": 1,
         "monster_message": "",
-        "condition": { "not": { "npc_has_effect": "eff_fleshling_splitcheck" } },
+        "condition": { "not": { "u_has_effect": "eff_fleshling_splitcheck" } },
         "allow_no_target": true
       }
     ]
@@ -281,7 +281,7 @@
         "spell_data": { "id": "mon_sflesh_fleshling_ex_initial" },
         "cooldown": 1,
         "monster_message": "",
-        "condition": { "not": { "npc_has_effect": "eff_fleshling_splitcheck" } },
+        "condition": { "not": { "u_has_effect": "eff_fleshling_splitcheck" } },
         "allow_no_target": true
       }
     ]
@@ -380,7 +380,7 @@
         "spell_data": { "id": "mon_sflesh_fleshling_ex_initial" },
         "cooldown": 1,
         "monster_message": "",
-        "condition": { "not": { "npc_has_effect": "eff_fleshling_splitcheck" } },
+        "condition": { "not": { "u_has_effect": "eff_fleshling_splitcheck" } },
         "allow_no_target": true
       }
     ]
