@@ -170,8 +170,7 @@
         "real_count": 1,
         "min_radius": 1,
         "max_radius": 4,
-        "lifespan": [ "60 seconds", "90 seconds" ],
-        "spawn_message": ""
+        "lifespan": [ "60 seconds", "90 seconds" ]
       }
     ]
   },
@@ -820,8 +819,7 @@
         "group": true,
         "real_count": 1,
         "min_radius": 1,
-        "max_radius": 1,
-        "spawn_message": ""
+        "max_radius": 1
       },
       { "npc_add_effect": "secro_veinstalk_limit", "duration": "7 seconds" }
     ]
@@ -829,42 +827,39 @@
   {
     "type": "effect_on_condition",
     "id": "eoc_secro_mon_sflesh_fleshling_smol_split",
-    "condition": { "not": { "u_has_effect": "eff_fleshling_splitcheck" } },
+    "condition": { "and": [ "has_alpha", { "not": { "u_has_effect": "eff_fleshling_splitcheck" } } ] },
     "effect": [
       {
         "npc_spawn_monster": "mon_sflesh_fleshling_tiny",
         "real_count": 2,
         "min_radius": 1,
-        "max_radius": 1,
-        "spawn_message": ""
+        "max_radius": 1
       }
     ]
   },
   {
     "type": "effect_on_condition",
     "id": "eoc_secro_mon_sflesh_fleshling_med_split",
-    "condition": { "not": { "u_has_effect": "eff_fleshling_splitcheck" } },
+    "condition": { "and": [ "has_alpha", { "not": { "u_has_effect": "eff_fleshling_splitcheck" } } ] },
     "effect": [
       {
         "npc_spawn_monster": "mon_sflesh_fleshling_smol",
         "real_count": 2,
         "min_radius": 1,
-        "max_radius": 1,
-        "spawn_message": ""
+        "max_radius": 1
       }
     ]
   },
   {
     "type": "effect_on_condition",
     "id": "eoc_secro_mon_sflesh_fleshling_big_split",
-    "condition": { "not": { "u_has_effect": "eff_fleshling_splitcheck" } },
+    "condition": { "and": [ "has_alpha", { "not": { "u_has_effect": "eff_fleshling_splitcheck" } } ] },
     "effect": [
       {
         "npc_spawn_monster": "mon_sflesh_fleshling_med",
         "real_count": 2,
         "min_radius": 1,
-        "max_radius": 1,
-        "spawn_message": ""
+        "max_radius": 1
       }
     ]
   },
